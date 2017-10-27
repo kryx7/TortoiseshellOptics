@@ -1,0 +1,25 @@
+html{
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+.site-container{
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-banner{
+  background-color: cadetblue;
+  display: flex;
+  width: 960px;
+
+
+}
+.logo{
+  height: 1.5rem;
+}
+.title-site{
+  font-size: 1rem;
+  color: white;
+}
