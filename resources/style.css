@@ -2,24 +2,39 @@ html{
   font-size: 18px;
   line-height: 1.4;
   font-family: Helvetica;
+  display: flex;
+  justify-content: center;
 }
 .site-container{
-  max-width: 960px;
+  width: 960px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid black;
+  background-color: gray;
 }
 .top-banner{
+  height: 3.5rem;
   background-color: cadetblue;
+  color: white;
   display: flex;
   width: 960px;
-
-
+  justify-content: space-between;
 }
-.logo{
+.logo-side{
+  padding-left: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+.logo img{
   height: 1.5rem;
 }
-.title-site{
-  font-size: 1rem;
-  color: white;
+.logo{
+  padding-right: 1rem;
+}
+.banner-nav{
+  display: inline-block;
+  float: right;
+  border: 1px solid black;
 }
